@@ -13,8 +13,8 @@ public class Main {
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
-        curso2.setTitulo("curso js");
-        curso2.setDescricao("descrição curso js");
+        curso2.setTitulo("curso poo");
+        curso2.setDescricao("descrição curso poo");
         curso2.setCargaHoraria(4);
 
         Mentoria mentoria = new Mentoria();
@@ -22,9 +22,9 @@ public class Main {
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
 
-        /*System.out.println(curso1);
+        System.out.println(curso1);
         System.out.println(curso2);
-        System.out.println(mentoria);*/
+        System.out.println(mentoria);
 
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Java Developer");
@@ -33,10 +33,13 @@ public class Main {
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
 
+        System.out.println("-------");
+
         Dev devJosiane = new Dev();
         devJosiane.setNome("Josiane");
         devJosiane.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Josiane:" + devJosiane.getConteudosInscritos());
+        devJosiane.progredir();
         devJosiane.progredir();
         devJosiane.progredir();
         System.out.println("-");
@@ -57,6 +60,21 @@ public class Main {
         System.out.println("Conteúdos Inscritos Cristina:" + devCristina.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos Cristina:" + devCristina.getConteudosConcluidos());
         System.out.println("XP:" + devCristina.calcularTotalXp());
+
+        System.out.println("-------");
+
+        Dev devAnderson = new Dev();
+        devAnderson.setNome("Anderson");
+        devAnderson.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Anderson:" + devAnderson.getConteudosInscritos());
+        devAnderson.progredir();
+        devAnderson.progredir();
+        devAnderson.progredir();
+        System.out.println("-");
+        System.out.println("Conteúdos Inscritos Anderson:" + devAnderson.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos Anderson:" + devAnderson.getConteudosConcluidos());
+        System.out.println("XP:" + devAnderson.calcularTotalXp());
+
 
     }
 
