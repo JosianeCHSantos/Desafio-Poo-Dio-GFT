@@ -1,8 +1,9 @@
 # *Desafio-Poo-Dio-GFT Com Camila Cavalcanti
 ****************************************************************
 
-*Desafio realizado em um passo a passo na IDE IntelliJ, porém como eu fiz, também pode ser realizado no VS Code. 
-Neste Desafio de Projeto foi apresentado:*
+*Desafio realizado em um passo a passo na IDE IntelliJ, porém como eu fiz, também pode ser realizado no VS Code.*
+
+*Neste Desafio de Projeto foi apresentado:*
 
             📝PARADIGMA DE PROGRAMAÇÃO ORIENTADO A OBJETOS (POO)📝
             
