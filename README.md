@@ -37,5 +37,5 @@
     * ♦ 1.2 Paradigma concorrente: Java e Ada
     * ♦ 1.3 Paradigma Orientado a Objetos: Smalltalk e Java
 
-    * ♦ *Paradigma Declarativo
+    * ♦ Paradigma Declarativo
 
