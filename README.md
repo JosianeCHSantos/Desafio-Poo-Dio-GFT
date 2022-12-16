@@ -4,6 +4,7 @@
 *Desafio realizado em um passo a passo na IDE IntelliJ, porém como eu fiz, também pode ser realizado no VS Code. Neste Desafio de Projeto foi apresentado:*
 
             📝PARADIGMA DE PROGRAMAÇÃO ORIENTADO A OBJETOS (POO)📝
+            
 *   📝 ABSTRAÇÃO
 *   📝 ENCAPSULAMENTO
 *   📝 HERANÇA
@@ -15,9 +16,9 @@
 * 📚 DOMÍNIO
 * 📚 CLASSE
 * 📚 VARIÁVEL
-* 📚 MÉTODO:
-* 📚 OBJETO:
-* 📚 INSTÂNCIA:
+* 📚 MÉTODO
+* 📚 OBJETO
+* 📚 INSTÂNCIA
 
 *****************************************************************
             ✨Linguagem de Programação vs Paradigma de Linguagem de Programação✨
