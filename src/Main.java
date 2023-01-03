@@ -44,7 +44,7 @@ public class Main {
         devJosiane.progredir();
         System.out.println("-");
         System.out.println("Conteúdos Inscritos Josiane:" + devJosiane.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Josiane:" + devJosiane.getConteudosConcluidos());
+        System.out.println("Conteúdos Concluídos Josiane" + devJosiane.getConteudosConcluidos());
         System.out.println("XP:" + devJosiane.calcularTotalXp());
 
         System.out.println("-------");
